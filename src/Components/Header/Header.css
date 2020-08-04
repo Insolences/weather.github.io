@@ -1,0 +1,18 @@
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    animation: fade-in 0.5s linear;
+}
+
+.head_container{
+    animation: shadow 0.3s linear;
+    box-shadow: 0 0 59px 0 rgba(0,0,0,0.33);
+}
+
+@keyframes fade-in {0% { opacity: 0; } 60%{opacity: 0.1;}   100% { opacity: 1; }   }
+@keyframes shadow {0% { opacity: 0; } 70%{opacity: 0;}   100% { opacity: 1; }   }
+
+
